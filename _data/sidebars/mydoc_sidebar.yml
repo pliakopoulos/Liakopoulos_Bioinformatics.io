@@ -19,13 +19,13 @@ entries:
       output: pdf
       type: frontmatter
       
-  - title: About the author
-    output: web, pdf
-    folderitems:
-    
     - title: About the author
-      url: /mydoc_about.html
-       output: web, pdf
+      output: web, pdf
+      folderitems:
+    
+      - title: About the author
+        url: /mydoc_about.html
+        output: web, pdf
 
     
   - title: ATAC Seq
@@ -49,9 +49,8 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Alignment
-    output: web, pdf
-    folderitems:
+    - title: Alignment
+      output: web, pdf
 
     - title: PostAlignment Processing
       url: /mydoc_release_notes_60.html
