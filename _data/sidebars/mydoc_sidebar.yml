@@ -19,9 +19,13 @@ entries:
       output: pdf
       type: frontmatter
       
-  - title: About the theme author
-    url: /mydoc_about.html
+  - title: About the author
     output: web, pdf
+    folderitems:
+    
+   - title: About the author
+     url: /mydoc_about.html
+     output: web, pdf
 
     
   - title: ATAC Seq
