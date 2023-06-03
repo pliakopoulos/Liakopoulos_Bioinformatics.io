@@ -25,7 +25,7 @@ In brief, the basic steps (lets say wet lab steps) of an RNA Seq experiment are 
 After sequencing those cDNAs, we observe the abundances of DNA, and then we attempt to infer the original amounts of RNA in the cell. Despite the fact that this
 task seems quite simple, in reality it is not. 
 
-If you want to read more about the basic conscepts of RNA Seq, you can always give a look to this [book]https://drive.google.com/file/d/10uR_guBPf75oF9lfAnu101llnnPIH2dx/view?usp=drive_link. Moreover, you can also ask google or chatGPT. 
+If you want to read more about the basic conscepts of RNA Seq, you can always give a look to this [book](https://drive.google.com/file/d/10uR_guBPf75oF9lfAnu101llnnPIH2dx/view?usp=drive_link). Moreover, you can also ask google or chatGPT. 
 
 
 Lets now dive to the dark side of RNA Seq.
