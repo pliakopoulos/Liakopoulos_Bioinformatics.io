@@ -46,10 +46,10 @@ Here's a simple step-by-step guide on using FastQC for QC analysis:
       {% endraw %}
      The -o and -t flags refer to:
      
-      -o   Create all output files in the specified output directory.
+        -o   Create all output files in the specified output directory.
      
-      -t   Specifies the number of files which can be processedsimultaneously.  
-            Each thread will be allocated 250MB of memory so you shouldn't run more threads than your available memory will cope with.
+        -t   Specifies the number of files which can be processedsimultaneously.  
+              Each thread will be allocated 250MB of memory so you shouldn't run more threads than your available memory will cope with.
       
      Using FastQC with -h flag and without any other options will print the help file of fastqc. This file contains information about the different flags 
      this tool possesses. It also includes information about how to correctly run the programm, and a sort description.
