@@ -27,6 +27,25 @@ entries:
       url: /mydoc_about.html
       output: web, pdf
 
+  - title: RNA Seq
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /RNA_Seq_Introduction.html
+      output: web, pdf
+
+    - title: FastQC
+      url: /Create QC_RNA_Seq.html
+      output: web, pdf
+
+    - title: Alignment
+      url: /Alignment_RNA_Seq.html
+      output: web, pdf
+      
+    - title: Read Count
+      url: /mydoc_install_jekyll_on_windows.html
+      output: web, pdf   
     
   - title: ATAC Seq
     output: web, pdf
@@ -60,28 +79,6 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-  - title: RNA Seq
-    output: web, pdf
-    folderitems:
-
-    - title: Introduction
-      url: /RNA_Seq_Introduction.html
-      output: web, pdf
-
-    - title: FastQC
-      url: /Create QC_RNA_Seq.html
-      output: web, pdf
-
-    - title: Alignment
-      url: /Alignment_RNA_Seq.html
-      output: web, pdf
-      
-    - title: Read Count
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf   
-
-  - title: Authoring
-    output: web, pdf
 
     folderitems:
     - title: Pages
