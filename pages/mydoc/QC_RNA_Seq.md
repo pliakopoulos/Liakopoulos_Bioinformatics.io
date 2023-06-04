@@ -5,7 +5,7 @@ keywords: popovers, tooltips, user interface text, glossaries, definitions
 last_updated: June 4, 2023 
 summary: "Quality Control Using FastQC"
 sidebar: mydoc_sidebar
-permalink: mydoc_adding_tooltips.html
+permalink: Create QC_RNA_Seq.html
 folder: mydoc
 ---
 
