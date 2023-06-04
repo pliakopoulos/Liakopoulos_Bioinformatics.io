@@ -31,7 +31,7 @@ The key aspects of pre - alignment quality control for RNA - seq are:
 FastQC is a widely used tool for performing quality control (QC) analysis on raw sequencing reads obtained from RNA-seq experiments. As explained in their [documentation](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/1%20Introduction/1.1%20What%20is%20FastQC.html),
 FastQC aims to provide a QC report which can spot problems which originate either in the sequencer or in the starting library material.
 
-## How to use FastQC
+## How to use FastQC.
 
 Here's a simple step-by-step guide on using FastQC for QC analysis:
 
@@ -51,7 +51,7 @@ Here's a simple step-by-step guide on using FastQC for QC analysis:
       -t   Specifies the number of files which can be processedsimultaneously.  
             Each thread will be allocated 250MB of memory so you shouldn't run more threads than your available memory will cope with.
       
-     Using FastQC with -h flag and withoun any other option, the help file of fastqc will be printed. This file contains information about the different flags 
+     Using FastQC with -h flag and without any other options will print the help file of fastqc. This file contains information about the different flags 
      this tool possesses. It also includes information about how to correctly run the programm, and a sort description.
    
    3. Evaluation of the results.
@@ -59,32 +59,24 @@ Here's a simple step-by-step guide on using FastQC for QC analysis:
 More information about FastQC can be found in this manual [website](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf)
 
 ## Evaluating Results
-   
-   
-   
-
-Interpret the results: After the analysis is complete, FastQC generates a comprehensive report that provides various metrics and visualizations 
-for assessing the quality of the sequencing data. 
-Open the HTML report(s) to view the results.
-
-# FastQC outputs
-
+  
 The FastQC report contains several sections, including:
 
-Basic Statistics: This section provides general information about the dataset, such as the total number of reads, sequence length distribution, and GC content.
+  1. Basic Statistics: This section provides general information about the dataset, such as the total number of reads, sequence length distribution, and GC  
+      content.
 
-Per-base Sequence Quality: Here, FastQC displays the quality scores for each base position in the reads. 
-It helps identify regions with low-quality scores, potential sequencing errors, or biases.
+  2. Per-base Sequence Quality: Here, FastQC displays the quality scores for each base position in the reads. 
+      It helps identify regions with low-quality scores, potential sequencing errors, or biases.
 
-Per-sequence Quality Scores: This section presents a graph showing the distribution of average quality scores for all reads. 
-It allows you to assess the overall quality of the dataset.
+  3. Per-sequence Quality Scores: This section presents a graph showing the distribution of average quality scores for all reads. 
+      It allows you to assess the overall quality of the dataset.
 
-Sequence Length Distribution: This plot shows the distribution of read lengths in the dataset, helping identify any biases or unexpected read truncations.
+  4. Sequence Length Distribution: This plot shows the distribution of read lengths in the dataset, helping identify any biases or unexpected read truncations.
 
-Overrepresented Sequences: FastQC identifies sequences that occur at an unusually high frequency, which could indicate contaminants or adapter sequences that 
-need to be trimmed.
+  5. Overrepresented Sequences: FastQC identifies sequences that occur at an unusually high frequency, which could indicate contaminants or adapter sequences that 
+    need to be trimmed.
 
-Adapter Content: This section helps identify if adapter sequences are present in the reads, which may need to be removed during preprocessing.
+  6. Adapter Content: This section helps identify if adapter sequences are present in the reads, which may need to be removed during preprocessing.
 
 Interpret the warnings and flags: FastQC flags potential issues and generates warnings if certain metrics fall outside the expected range. 
 Pay attention to these warnings as they highlight potential problems with the data, such as low-quality scores, overrepresented sequences, 
@@ -93,7 +85,7 @@ By examining the FastQC report, you can gain insights into the quality of your s
 and take appropriate measures for preprocessing or downstream analysis.
 
 
-
+  
 
 
 # Adapter trimming and low reads filtering using TrimmGalor
