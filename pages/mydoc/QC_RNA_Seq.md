@@ -9,7 +9,7 @@ permalink: Create QC_RNA_Seq.html
 folder: mydoc
 ---
 
-## What is Quality contol?
+# What is Quality contol?
 
 Quality control (QC) involves assessing the quality, integrity and evaluation of the sequencing data obtained from RNA-seq experiments. It involves various 
 steps to identify and address potential issues that can affect the accuracy and reliability of downstream analysis.The goal is to identify any potential issues 
@@ -24,14 +24,14 @@ The key aspects of pre - alignment quality control for RNA - seq are:
   2. Adapter and quality trimming: If adapter sequences are present in the reads, or if there are low-quality regions, it is important to trim them. 
      Trimming removes adapter sequences and low-quality bases, improving the overall quality of the data and reducing the influence of sequencing artifacts.
 
-## Quality Control Using FastQC
+# Quality Control Using FastQC
 
-# What is FastQC?
+## What is FastQC?
 
 FastQC is a widely used tool for performing quality control (QC) analysis on raw sequencing reads obtained from RNA-seq experiments. As explained in their [documentation](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/1%20Introduction/1.1%20What%20is%20FastQC.html),
 FastQC aims to provide a QC report which can spot problems which originate either in the sequencer or in the starting library material.
 
-# How to use FastQC
+## How to use FastQC
 
 Here's a simple step-by-step guide on using FastQC for QC analysis:
 
@@ -58,7 +58,7 @@ Here's a simple step-by-step guide on using FastQC for QC analysis:
 
 More information about FastQC can be found it this manual [website](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf)
 
-# Evaluating Results
+## Evaluating Results
    
    
    
@@ -96,7 +96,7 @@ and take appropriate measures for preprocessing or downstream analysis.
 
 
 
-## Adapter trimming and low reads filtering using TrimmGalor
+# Adapter trimming and low reads filtering using TrimmGalor
 
 
 
