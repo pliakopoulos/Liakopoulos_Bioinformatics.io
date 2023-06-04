@@ -1,7 +1,7 @@
 ---
-title: Tooltips
+title: Quality Control for RNA Seq
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
+keywords: Quality Control, RNA Seq
 last_updated: June 4, 2023 
 summary: "Quality Control Using FastQC"
 sidebar: mydoc_sidebar
@@ -56,7 +56,7 @@ Here's a simple step-by-step guide on using FastQC for QC analysis:
    
    3. Evaluation of the results.
 
-More information about FastQC can be found it this manual [website](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf)
+More information about FastQC can be found in this manual [website](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf)
 
 ## Evaluating Results
    
