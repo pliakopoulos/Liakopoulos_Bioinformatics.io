@@ -56,16 +56,15 @@ Use the HISAT2 command with appropriate options to specify the input files, refe
 
 For single end data:
 
-      ```
-        hisat2 -p [number_of_threads_to_use] -x /path_to_your_hisat2_indexes_folder/genome -U /path_to_your_fastq_files_folder/reads_.fastq -S output.sam
-      ```
+```
+ hisat2 -p [number_of_threads_to_use] -x /path_to_your_hisat2_indexes_folder/genome -U /path_to_your_fastq_files_folder/reads_.fastq -S output.sam
+```
 
 For paired end data:
 
-      ```
-        hisat2 -p [number_of_threads_to_use] -x /path_to_your_hisat2_indexes_folder/genome -1 /path_to_your_fastq_files_folder/reads_R1.fastq -2
-        /path_to_your_fastq_files_folder/reads_R2.fastq -S output.sam
-      ```
+```
+hisat2 -p [number_of_threads_to_use] -x /path_to_your_hisat2_indexes_folder/genome -1 /path_to_your_fastq_files_folder/reads_R1.fastq -2 /path_to_your_fastq_files_folder/reads_R2.fastq -S output.sam
+```
 
 When running the HISAT2 alignment, make sure to include the -x hisat2 option, which should point to the directory path and the index_prefix (in this case genome) of your index files (without the .ht2 extension).
 
@@ -96,16 +95,16 @@ is a widely used bioinformatics software package for manipulating and analyzing 
 Alignment/Map) formats. It provides a collection of tools and utilities for tasks such as file format conversion, sorting, indexing, filtering, and statistical 
 analysis of alignment data.
 
-      ```
-        # Convert sam file to bam file 
-        samtools view -b -h -S output.sam > output.bam
+```
+# Convert sam file to bam file 
+samtools view -b -h -S output.sam > output.bam
       
-        # Sort the bam file
-        samtools sort output.bam -o output.sorted.bam
+# Sort the bam file
+samtools sort output.bam -o output.sorted.bam
       
-        # Create an index for the sorted bam file
-        samtools index output.sorted.bam
-      ```
+# Create an index for the sorted bam file
+samtools index output.sorted.bam
+ ```
       
 After completing these steps, you can remove the sam file and the unsorted file, in order to free some disk space.
 
